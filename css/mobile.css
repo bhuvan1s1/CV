@@ -1,0 +1,285 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) { */
+  .skill1-ul, .skill2-ul, .skill3-ul,.skill4-ul 
+  {
+    width: auto;
+    height: auto;
+  }
+  .header
+{
+  
+  display: flex;
+  position: relative;
+ align-items: center;
+  opacity: 0.8;
+  z-index: 1;
+  width: auto;
+  height: auto;
+}
+.grid-container {
+  display: inline;
+  /* grid-template-columns: 95% auto auto auto auto;  */
+  padding: 100px;
+}
+
+.top-Container
+{
+  
+  height: auto; 
+  width: auto;
+  position: relative; 
+  
+}
+
+.profile-Name
+{
+  font-size: 3rem;
+  
+  padding-top: 200px;
+  
+}
+
+.top-para
+{
+  
+  font-size: 2rem;
+  padding-top: 105px;
+  
+}
+
+.main-bg
+{
+display: none;
+}
+
+.about-word
+{
+font-weight: 26;
+width: auto;
+margin: auto;
+line-height: 2;
+
+}
+
+.top-profile-img
+{
+margin: 40px auto;
+}
+
+
+
+ .skills
+ {
+   padding-top: 30px ;
+   font-size: 3rem;
+   margin: 50px;
+ }
+ 
+ .exp-img
+ {
+ display: none;
+}
+ 
+ .skill1-ul
+ {
+ width: auto;
+ margin: 20px;
+ 
+ }
+ 
+ .computer-img
+ {
+  display: none;
+
+ }
+ 
+ .skill2-ul
+ {
+  width: auto;
+  margin: 20px;
+}
+ .database-img
+ {
+   display: none;
+ }
+ 
+ .skill3-ul
+ {
+  width: auto;
+  margin: 20px;
+ 
+ }
+ 
+ .language-img
+ {
+   display: none;
+ }
+ 
+ .skill4-ul
+ {
+  width: auto;
+  margin: 20px;
+}
+/* } */
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {
+  .skill1-ul, .skill2-ul, .skill3-ul,.skill4-ul 
+  {
+    width: auto;
+    height: auto;
+  }
+  
+ .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto; 
+  padding: 0 100px 100px;
+} 
+.top-Container
+{
+  
+  height: 100vh;
+  width: auto;
+  
+}
+
+.profile-Name
+{
+  font-size: 2rem;
+    
+}
+
+.top-para
+{
+  
+  font-size: 2rem;
+  
+}
+
+.main-bg
+{
+display: none;
+}
+
+.about-me
+{
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+.about-word
+{
+font-weight: 16;
+width: auto;
+margin: 0 auto auto auto;
+line-height: 2;
+
+}
+
+.top-profile-img
+{
+margin:  20px 40%;
+width: 20%;
+}
+
+
+.group-skills
+{
+  padding-top: 40px ;
+  font-size: 1rem;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto auto; 
+}
+
+.skills
+{
+  font-size: 2rem;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+padding-top: 150px;  
+}
+
+.exp-img
+{
+display: none;
+}
+
+.skill1-ul
+{
+width: 0.5px;
+margin: 25px 10px;
+padding:0 px 0 10px;
+
+}
+
+.computer-img
+{
+ display: none;
+
+}
+
+.skill2-ul
+{
+  width: 0.5px;
+  margin: 25px 10px;
+padding:0 px 0 10px;
+}
+.database-img
+{
+  display: none;
+}
+
+.skill3-ul
+{
+  width: 0.5px;
+  margin: 5px 10px;
+padding:0 px 0 10px;
+
+}
+
+.language-img
+{
+  display: none;
+}
+
+.skill4-ul
+{
+  width: 0.5 px;
+  margin: 5px 10px;
+padding:0 px 0 10px;
+}
+
+
+
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .skill1-ul, .skill2-ul, .skill3-ul,.skill4-ul 
+  {
+    width: auto;
+    height: auto;
+  }
+
+ 
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .skill1-ul, .skill2-ul, .skill3-ul,.skill4-ul 
+  {
+    width: 20%;
+  } 
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .skill1-ul, .skill2-ul, .skill3-ul,.skill4-ul 
+  {
+    width: 20%;
+  } 
+} */

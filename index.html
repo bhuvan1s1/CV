@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhuvaneshwaran Srinivasan</title>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 760px)" href="css/mobile.css">
+  <link rel="stylesheet" media= "screen and (min-width:1100px)" href="css/largedevices.css" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bhuvaneshwaran Srinivasan">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Orbitron&family=Roboto:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+
+    <div class="grid-container">
+      <div class="grid-item"><img class="icon" src="images/apple_touch_icon.png" alt="icon"></div>
+      <div class="grid-item"><a href="#profile" class="btn">Home</a></div>
+      <div class="grid-item"><a href="#about" class="btn">About</a></div>  
+      <div class="grid-item"><a href="#skills" class="btn">Skills</a> </div>
+      <div class="grid-item"><a href="#contact" class="btn">Contact</a></div>
+    </div>
+  </header>
+  <div id="profile" class="top-Container" >
+    <h1 class="profile-Name">
+      I'm Bhuvaneshwaran
+    </h1>
+    <p class="top-para">
+       an Architect/Programmer
+    </p>
+    <img class="main-bg" src="images/programmerimage.png" alt="back">
+  </div>
+  <div id="about" class="about-me">
+    
+    <img class="top-profile-img" src="images/Bhuvan_Profile.png" alt="Bhuvan profile pic">
+    <h2>Hi</h2>
+    <p class="about-word">
+      I am Certified Pega Lead System Architect based out of London,United Kingdom.
+      I have about 8+ years of experience in Pega technology.
+    </p>
+    
+  </div>
+
+  <div id="skills" class="skills-Container">
+    <h1 class="skills">
+      What I know
+    </h1>
+    <div class="group-skills">
+      <div class="skill-1">
+        <img class="exp-img" src="images/Pegalogo.jpg" alt="Pega logo">
+          <ul class="skill1-ul">
+            <li>Certified Pega Lead System Architect</li>
+          <li>Certified Senior System Architect</li>
+          <li>Certified System Architect</li>
+          <li>Certified Pega Business Architect</li>
+          </ul>
+          </div>
+          <div class="skill-2">
+            <img class="computer-img" src="images/computer.gif" alt="Computer gif">
+              <ul class="skill2-ul">
+                <li>HTML5</li>
+              <li>CSS3</li>
+              <li>PEGA PRPC(v7.x and V6.x)</li>
+              </ul>
+              
+              </div>
+
+              <div class="skill-3">
+                <img class="database-img" src="images/database1.jpg" alt="DB">
+                  <ul class="skill3-ul">
+                    <li>Oracle</li>
+                  <li>SQL</li>
+                  <li>Microsoft Office</li>
+                  </ul>
+                  
+                  </div>
+                  <div class="skill-4">
+                    <img class="language-img" src="images/programlang.jpeg" alt="languages">
+                      <ul class="skill4-ul">
+                        <li>Javascript, Basic JAVA, C, C++</li>
+                      <li>Agile (Scrum), Waterfall models</li>
+                      <li>JIRA, Visio, IBM RRC, HP QC</li>
+                      </ul>
+                      
+                      </div>
+    </div>
+      
+      </div>
+    
+  </div>
+
+  <footer id="contact">
+   
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://uk.linkedin.com/in/bhuvaneshwaran-simhadri-58847870">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/bhuvan1s1">Twitter</a>
+      <p class="copyright">© 2020 Bhuvaneshwaran S.</p>
+    </div>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script>
+      // Smooth Scrolling
+      $('.btn').on('click', function(event) {
+          if (this.hash !== '') {
+            event.preventDefault();
+            const hash = this.hash;
+            $('html, body').animate(
+              {
+                scrollTop: $(hash).offset().top
+              },
+              800
+            );
+          }
+        });
+    </script>
+</body>
+</html>
